@@ -6,7 +6,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 Modifications:
 
 - plugins:
-  -"aduros/ai.vim"
+
+  - "aduros/ai.vim"
   - "Exafunction/codeium.vim"
   - "cbochs/portal.nvim"
 
