@@ -1,8 +1,18 @@
+-- if true then
+--   return {}
+-- end
+--
 return {
   "cbochs/portal.nvim",
   -- Optional dependencies
   dependencies = {
-    "cbochs/grapple.nvim",
+    {
+      "cbochs/grapple.nvim",
+      dependencies = {
+        { "nvim-tree/nvim-web-devicons", lazy = true },
+      },
+    },
+    -- "cbochs/grapple.nvim",
     "ThePrimeagen/harpoon",
   },
 

@@ -7,3 +7,5 @@ vim.keymap.set("n", "<F3>", "<esc>:w | !python %<cr>", { desc = "Execute current
 -- Wrap word with quotes
 vim.keymap.set("n", '<leader>r"', 'viw<esc>a"<esc>hbi"<esc>lel', { desc = 'Wrap word with ""' })
 vim.keymap.set("n", "<leader>r'", "viw<esc>a'<esc>hbi'<esc>lel", { desc = "Wrap word with ''" })
+vim.keymap.set("n", "<leader>r*", "viw<esc>a**<esc>hbi**<esc>lel", { desc = "Wrap word with ****" })
+vim.keymap.set("n", "<leader>r`", "viw<esc>a`<esc>hbi`<esc>lel", { desc = "Wrap word with ``" })
