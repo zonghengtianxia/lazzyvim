@@ -1,7 +1,7 @@
--- if true then
---   return {}
--- end
---
+if true then
+  return {}
+end
+
 return {
   "cbochs/portal.nvim",
   -- Optional dependencies
