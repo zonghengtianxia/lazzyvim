@@ -3,7 +3,8 @@
 -- Add any additional keymaps here
 
 -- Execute python program
-vim.keymap.set("n", "<F3>", "<esc>:w | !python %<cr>", { desc = "Execute current Python file" })
+-- vim.keymap.set("n", "<F3>", "<esc>:w | !python %<cr>", { desc = "Execute current Python file" })
+vim.keymap.set("n", "<C-cr>", "<esc>:w | !python %<cr>", { desc = "Execute current Python file" })
 -- Wrap word with quotes
 vim.keymap.set("n", '<leader>r"', 'viw<esc>a"<esc>hbi"<esc>lel', { desc = 'Wrap word with ""' })
 vim.keymap.set("n", "<leader>r'", "viw<esc>a'<esc>hbi'<esc>lel", { desc = "Wrap word with ''" })
