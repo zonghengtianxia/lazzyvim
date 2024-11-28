@@ -10,3 +10,5 @@ vim.keymap.set("n", '<leader>r"', 'viw<esc>a"<esc>hbi"<esc>lel', { desc = 'Wrap 
 vim.keymap.set("n", "<leader>r'", "viw<esc>a'<esc>hbi'<esc>lel", { desc = "Wrap word with ''" })
 vim.keymap.set("n", "<leader>r*", "viw<esc>a**<esc>hbi**<esc>lel", { desc = "Wrap word with ****" })
 vim.keymap.set("n", "<leader>r`", "viw<esc>a`<esc>hbi`<esc>lel", { desc = "Wrap word with ``" })
+local opts = { noremap = true, silent = true }
+-- vim.api.nvim_set_keymap("n", "<Leader>nf", ":lua require('neogen').generate()<CR>", opts)
