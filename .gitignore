@@ -1,5 +1,5 @@
 tt.*
-.json
+*.json
 .tests
 doc/tags
 debug
