@@ -1,9 +1,9 @@
--- if true then
---   return {}
--- end
+if true then
+  return {}
+end
 
-return {
-  "ellisonleao/glow.nvim",
-  config = true,
-  cmd = "Glow",
-}
+-- return {
+--   "ellisonleao/glow.nvim",
+--   config = true,
+--   cmd = "Glow",
+-- }
